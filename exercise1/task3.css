@@ -124,3 +124,83 @@ a:hover {
     margin-top: auto;
     clear: both;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .nav-bar {
+        padding: 8px;
+    }
+
+    .nav-bar li {
+        display: block;
+        margin: 7px 0;
+    }
+
+    .main-content {
+        margin: 10px;
+        padding: 15px;
+        border-width: 3px;
+        overflow: visible;
+    }
+
+    .main-content img {
+        float: none;
+        display: block;
+        width: 80%;
+        max-width: 280px;
+        height: auto;
+        margin: 0 auto 20px auto;
+    }
+
+    .main-content h1 {
+        font-size: 1.6em;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .main-content h2 {
+        font-size: 1.3em;
+        margin-top: 15px;
+    }
+
+    .main-content ul {
+        line-height: 1.5;
+        padding-left: 0;
+    }
+
+    .main-content p {
+        margin-left: 0;
+        max-width: 100%;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .first,
+    .second,
+    .third {
+        display: block;
+        position: static;
+        left: auto;
+        width: auto;
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .main-content h3 {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 20px;
+        font-size: 1.4em;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}
