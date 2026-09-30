@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-color: #fdf2f8;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4em;
+    color: #282728;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #f48fd1;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #f9c0df;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-bar ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: #282728;
+}
+
+a:hover {
+    color: #d2c9ce;
+}
+
+.main-content {
+    flex: 1;
+    background-color: #fbc0e1;
+    border-radius: 5px;
+    border: 5px solid #ffe3ff;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    overflow: auto;
+}
+
+.main-content img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px #282728;
+    border: 5px solid papayawhip;
+    height: auto;
+    float: right;
+}
+
+.first {
+    font-family: "Caveat", cursive;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.second {
+    font-family: "Caveat", cursive;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    left: 150px;
+    width: auto;
+}
+
+.third {
+    font-family: "Caveat", cursive;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    left: 250px;
+    width: auto;
+}
+
+.main-content h3 {
+    text-align: right;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 23px;
+}
+
+.main-content p {
+    line-height: 1.6;
+    font-size: 1.05em;
+    color: #3a3338;
+    max-width: 850px;
+    margin-left: 40px;
+}
+
+.main-content h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main-content ul {
+    line-height: 1.5;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background-color: #f9c0df;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    clear: both;
+}
